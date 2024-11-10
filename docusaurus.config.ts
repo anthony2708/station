@@ -82,7 +82,7 @@ const config: Config = {
     [
       '@docusaurus/plugin-pwa',
       {
-        debug: true,
+        // debug: true,
         offlineModeActivationStrategies: [
           'appInstalled',
           'standalone',
@@ -102,7 +102,38 @@ const config: Config = {
           {
             tagName: 'meta',
             name: 'theme-color',
-            content: 'rgb(37, 194, 160)',
+            content: 'rgb(255, 237, 174)',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-capable',
+            content: 'yes',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-status-bar-style',
+            content: '#000',
+          },
+          {
+            tagName: 'link',
+            rel: 'apple-touch-icon',
+            href: '/img/favicon/ET_Logo.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'mask-icon',
+            href: '/img/favicon/ET_Logo.png',
+            color: 'rgb(255, 237, 174)',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-TileImage',
+            content: '/img/favicon/favicon.png',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-TileColor',
+            content: '#000',
           },
         ],
       },
@@ -116,7 +147,7 @@ const config: Config = {
           blogRouteBasePath: ["/"],
           searchResultLimits: 5,
           searchBarShortcutHint: false,
-          highlightSearchTermsOnTargetPage: true,
+          // highlightSearchTermsOnTargetPage: true,
         },
     ],
 ],

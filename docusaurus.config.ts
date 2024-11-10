@@ -107,20 +107,36 @@ const config: Config = {
         ],
       },
     ],
-  ],
+    [
+        require.resolve("@easyops-cn/docusaurus-search-local"),
+        {
+          language: ["vi"],
+          hashed: true,
+          indexDocs: false,
+          blogRouteBasePath: ["/"],
+          searchResultLimits: 5,
+          searchBarShortcutHint: false,
+          highlightSearchTermsOnTargetPage: true,
+        },
+    ],
+],
 
   themeConfig: {
     // Replace with your project's social card
     image: 'img/favicon/ET_Logo.png',
     navbar: {
-      hideOnScroll: true,
       title: 'Station',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Station',
         src: 'img/favicon/ET_Logo.png',
       },
       items: [
-        {to: '/', label: 'Blog', position: 'right'},
+        {to: '/', label: 'Blog', position: 'left'},
+        {
+          label: "Trang chủ",
+          href: "https://www.builetuananh.name.vn",
+          position: "left",
+        },
         {
           type: 'localeDropdown',
           position: 'right',
@@ -137,35 +153,39 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Community',
+          title: "Trang chủ",
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: "Giới thiệu cá nhân",
+              href: "https://www.builetuananh.name.vn/docs/intro",
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: "Tài liệu tham khảo",
+              href: "https://www.builetuananh.name.vn/docs/resources",
             },
             {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
+              label: "90 ngày cùng DevOps",
+              href: "https://www.builetuananh.name.vn/docs/90days"
+            }
           ],
         },
         {
-          title: 'More',
+          title: "Cổng dịch vụ",
           items: [
             {
-              label: 'Blog',
-              to: '/',
+              label: "URL Shortener",
+              href: "https://www.builetuananh.name.vn/services/url",
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: "English L&T",
+              href: "https://www.builetuananh.name.vn/services/courses",
             },
-          ],
-        },
+            {
+              label: "Dịch vụ khác",
+              href: "https://www.builetuananh.name.vn/services",
+            },
+          ]
+        }
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Anthony Bùi Lê Tuấn Anh. Built with ❤ & <a href="https://docusaurus.io" target="_blank" rel="noopener noreferrer">Docusaurus</a>.`,
     },

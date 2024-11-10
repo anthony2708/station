@@ -3,7 +3,7 @@
     "short_name": "Station",
     "theme_color": "#ffd84b",
     "background_color": "#424242",
-    "display": "minimal-ui",
+    "display": "standalone",
     "scope": "./",
     "start_url": "./index.html",
     "related_applications": [

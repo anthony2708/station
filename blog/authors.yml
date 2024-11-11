@@ -42,7 +42,7 @@ jolie:
 anthony:
   name: Anthony Bùi Lê Tuấn Anh
   title: VNUHCM-ITUS Alumnus/Tech Blog
-  image_url: https://github.com/anthony2708.png
+  image_url: ../../img/blog/anthony.jpg
   page: true
   description: >
     Một chuyên viên hỗ trợ Công nghệ thông tin cho doanh nghiệp nhưng yêu thích văn chương 

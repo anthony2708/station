@@ -92,7 +92,7 @@ const config: Config = {
           {
             tagName: 'link',
             rel: 'icon',
-            href: '/img/favicon/ET_Logo.png',
+            href: '/img/favicon/station.png',
           },
           {
             tagName: 'link',
@@ -117,12 +117,12 @@ const config: Config = {
           {
             tagName: 'link',
             rel: 'apple-touch-icon',
-            href: '/img/favicon/ET_Logo.png',
+            href: '/img/favicon/station.png',
           },
           {
             tagName: 'link',
             rel: 'mask-icon',
-            href: '/img/favicon/ET_Logo.png',
+            href: '/img/favicon/station.png',
             color: 'rgb(255, 237, 174)',
           },
           {
@@ -154,12 +154,12 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/favicon/ET_Logo.png',
+    image: 'img/favicon/station.png',
     navbar: {
       title: 'Station',
       logo: {
         alt: 'Station',
-        src: 'img/favicon/ET_Logo.png',
+        src: 'img/favicon/station.png',
       },
       items: [
         {to: '/', label: 'Blog', position: 'left'},

@@ -188,11 +188,11 @@ const config: Config = {
           items: [
             {
               label: "Giới thiệu cá nhân",
-              href: "https://www.builetuananh.name.vn/docs/intro",
+              href: "https://portal.builetuananh.name.vn/docs/intro",
             },
             {
               label: "Tài liệu tham khảo",
-              href: "https://www.builetuananh.name.vn/docs/resources",
+              href: "https://portal.builetuananh.name.vn/docs/resources",
             },
             {
               label: "90 ngày cùng DevOps",
@@ -205,15 +205,15 @@ const config: Config = {
           items: [
             {
               label: "URL Shortener",
-              href: "https://www.builetuananh.name.vn/services/url",
+              href: "https://portal.builetuananh.name.vn/services/url",
             },
             {
               label: "English L&T",
-              href: "https://www.builetuananh.name.vn/services/courses",
+              href: "https://portal.builetuananh.name.vn/services/courses",
             },
             {
               label: "Dịch vụ khác",
-              href: "https://www.builetuananh.name.vn/services",
+              href: "https://portal.builetuananh.name.vn/services",
             },
           ]
         }

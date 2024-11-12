@@ -9,27 +9,27 @@
   },
   "link.item.label.Giới thiệu cá nhân": {
     "message": "Giới thiệu cá nhân",
-    "description": "The label of footer link with label=Giới thiệu cá nhân linking to https://www.builetuananh.name.vn/docs/intro"
+    "description": "The label of footer link with label=Giới thiệu cá nhân linking to https://portal.builetuananh.name.vn/docs/intro"
   },
   "link.item.label.Tài liệu tham khảo": {
     "message": "Tài liệu tham khảo",
-    "description": "The label of footer link with label=Tài liệu tham khảo linking to https://www.builetuananh.name.vn/docs/resources"
+    "description": "The label of footer link with label=Tài liệu tham khảo linking to https://portal.builetuananh.name.vn/docs/resources"
   },
   "link.item.label.90 ngày cùng DevOps": {
     "message": "90 ngày cùng DevOps",
-    "description": "The label of footer link with label=90 ngày cùng DevOps linking to https://www.builetuananh.name.vn/docs/90days"
+    "description": "The label of footer link with label=90 ngày cùng DevOps linking to https://portal.builetuananh.name.vn/docs/90days"
   },
   "link.item.label.URL Shortener": {
     "message": "URL Shortener",
-    "description": "The label of footer link with label=URL Shortener linking to https://www.builetuananh.name.vn/services/url"
+    "description": "The label of footer link with label=URL Shortener linking to https://portal.builetuananh.name.vn/services/url"
   },
   "link.item.label.English L&T": {
     "message": "English L&T",
-    "description": "The label of footer link with label=English L&T linking to https://www.builetuananh.name.vn/services/courses"
+    "description": "The label of footer link with label=English L&T linking to https://portal.builetuananh.name.vn/services/courses"
   },
   "link.item.label.Dịch vụ khác": {
     "message": "Dịch vụ khác",
-    "description": "The label of footer link with label=Dịch vụ khác linking to https://www.builetuananh.name.vn/services"
+    "description": "The label of footer link with label=Dịch vụ khác linking to https://portal.builetuananh.name.vn/services"
   },
   "copyright": {
     "message": "Copyright © 2024 Anthony Bùi Lê Tuấn Anh. Built with ❤ & <a href=\"https://docusaurus.io\" target=\"_blank\" rel=\"noopener noreferrer\">Docusaurus</a>.",

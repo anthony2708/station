@@ -196,7 +196,7 @@ const config: Config = {
             },
             {
               label: "90 ngày cùng DevOps",
-              href: "https://www.builetuananh.name.vn/docs/90days"
+              href: "https://portal.builetuananh.name.vn/docs/90days"
             }
           ],
         },
